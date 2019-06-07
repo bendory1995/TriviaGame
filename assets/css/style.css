@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.col-12{
+    background-color: yellow;
+    margin-bottom: 5px;
+}

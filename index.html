@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+
+<head>
+    <title>Welcome To Trivia!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>TRIVIA GAME</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p1 id="timeLeft"></p1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>What is the capital city of Peru?</h2>
+                <form>
+                    <input type="radio" name="choice" value="inc"> Fortaleza
+                    <input type="radio" name="choice" value="inc"> Bogota
+                    <input type="radio" name="choice" value="inc"> Santiago
+                    <input type="radio" name="choice" value="ans"> Lima
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>What is the largest bone in the human body?</h2>
+                <form>
+                    <input type="radio" name="choice" value="ans"> The femur
+                    <input type="radio" name="choice" value="inc"> Ribs
+                    <input type="radio" name="choice" value="inc"> Sternum
+                    <input type="radio" name="choice" value="inc"> Tibia
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>What is the largest two digit prime number?</h2>
+                <form>
+                    <input type="radio" name="choice" value="inc"> 99
+                    <input type="radio" name="choice" value="ans"> 97
+                    <input type="radio" name="choice" value="inc"> 89
+                    <input type="radio" name="choice" value="inc"> 83
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Who was the Greek god of dreams?</h2>
+                <form>
+                    <input type="radio" name="choice" value="inc"> Cronos
+                    <input type="radio" name="choice" value="inc"> Helios
+                    <input type="radio" name="choice" value="inc"> Hermes
+                    <input type="radio" name="choice" value="ans"> Morpheus
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Which is the largest island in the Mediterranean Sea?</h2>
+                <form>
+                    <input type="radio" name="choice" value="inc"> Santorini
+                    <input type="radio" name="choice" value="inc"> Mykonos
+                    <input type="radio" name="choice" value="ans"> Sicily
+                    <input type="radio" name="choice" value="inc"> Ibiza
+                </form>
+            </div>
+        </div>
+        <input type="submit" value="submit" onclick="timeToZero()">
+
+        <div class="row">
+                <div class="col-12">
+                    <h2 id = unAnswered></h2>
+                    <h2 id = correctAnswer></h2>
+                    <h2 id = incorrect></h2>
+                </div>
+            </div>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
