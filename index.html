@@ -4,9 +4,12 @@
 
 
 <head>
+    <!-- title of the page-->
     <title>Welcome To Trivia!</title>
+    <!--linking to the local stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="UTF-8">
+    <!-- linking stylesheet to bootcamp-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -25,6 +28,8 @@
                 <p1 id="timeLeft"></p1>
             </div>
         </div>
+        <!-- Question 1-->
+        <!--Correct answer has a value of "ans" and incorrect answers have "inc"-->
         <div class="row">
             <div class="col-12">
                 <h2>What is the capital city of Peru?</h2>
@@ -36,6 +41,8 @@
                 </form>
             </div>
         </div>
+        <!-- Question 2-->
+        <!--Correct answer has a value of "ans" and incorrect answers have "inc"-->
         <div class="row">
             <div class="col-12">
                 <h2>What is the largest bone in the human body?</h2>
@@ -47,6 +54,8 @@
                 </form>
             </div>
         </div>
+        <!-- Question 3-->
+        <!--Correct answer has a value of "ans" and incorrect answers have "inc"-->
         <div class="row">
             <div class="col-12">
                 <h2>What is the largest two digit prime number?</h2>
@@ -58,6 +67,8 @@
                 </form>
             </div>
         </div>
+        <!-- Question 4-->
+        <!--Correct answer has a value of "ans" and incorrect answers have "inc"-->
         <div class="row">
             <div class="col-12">
                 <h2>Who was the Greek god of dreams?</h2>
@@ -69,6 +80,8 @@
                 </form>
             </div>
         </div>
+        <!-- Question 5-->
+        <!--Correct answer has a value of "ans" and incorrect answers have "inc"-->
         <div class="row">
             <div class="col-12">
                 <h2>Which is the largest island in the Mediterranean Sea?</h2>
@@ -80,19 +93,22 @@
                 </form>
             </div>
         </div>
+        <!--Submit button-->
         <input type="submit" value="submit" onclick="timeToZero()">
 
+        <!--Score board that displays, number of unanswered, correct, and incorrect answers-->
         <div class="row">
-                <div class="col-12">
-                    <h2 id = unAnswered></h2>
-                    <h2 id = correctAnswer></h2>
-                    <h2 id = incorrect></h2>
-                </div>
+            <div class="col-12">
+                <h2 id=unAnswered></h2>
+                <h2 id=correctAnswer></h2>
+                <h2 id=incorrect></h2>
             </div>
+        </div>
     </div>
 
+    <!-- linking to javascript file-->
     <script src="assets/javascript/app.js"></script>
-
+    <!--linking to jquery-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
